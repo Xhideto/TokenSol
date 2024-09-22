@@ -1,41 +1,34 @@
 # MyToken
 
-Simple overview of use/purpose.
+A basic token implementation on the ETH blockhain
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+It defines a simple token called "NFTb Token" with its abbreviation "NFTB." This defines the minting and burning functionalities, which enable dynamic adjustments of the total supply.
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clone the repository or download the contract file.
+* Ensure you have Remix(Ethereum IDE) to compile and deploy the contract.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Compile and deploy the contract using Remix.
+* Mint:
 ```
-code blocks for commands
+Mint(_adress, _value);
+```
+* Burn:
+```
+Burn(_adress, _value);
 ```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+Check your Solidity compiler version.
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT
