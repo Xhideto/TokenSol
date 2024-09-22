@@ -1,4 +1,4 @@
-# Project Title
+# MyToken
 
 Simple overview of use/purpose.
 
